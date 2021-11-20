@@ -1,38 +1,74 @@
 .App {
   text-align: center;
+  font-family: "helvetica";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.countryFlag {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ChartTitle {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+}
+.ChartMainBox {
+  width: auto;
+  height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* p.MuiTypography-root.makeStyles-countryName-8.MuiTypography-body1 {
+  cursor: pointer;
+} */
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-undefined.tablehead.css-11lq3yg-MuiGrid-root {
+  cursor: pointer;
+}
+
+/* <Cases Box Css> */
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.confirmedCases.css-1v67pvg-MuiPaper-root:hover {
+  background-color: #abe9ed;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.confirmedCases.css-1v67pvg-MuiPaper-root {
+  background-color: #DAF6F7;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.deathCases.css-1v67pvg-MuiPaper-root {
+  
+  background: #FFDFDF;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.deathCases.css-1v67pvg-MuiPaper-root:hover {
+  
+  background: #FFB4B1;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.recoverdCases.css-1v67pvg-MuiPaper-root {
+  
+  background: #E2F3E1;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.recoverdCases.css-1v67pvg-MuiPaper-root:hover {
+  
+  background: #BCE5BA;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.activeCases.css-1v67pvg-MuiPaper-root {
+  
+  background: #E2F2F9;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.activeCases.css-1v67pvg-MuiPaper-root:hover {
+  
+  background: #B3DDEF;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.crititalCases.css-1v67pvg-MuiPaper-root {
+  
+  background: #FAEFE3;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.crititalCases.css-1v67pvg-MuiPaper-root:hover {
+  
+  background: #F3D9BE;
+}
+/*</Cases Box Css> */
+a {
+  text-align: start;
+  text-decoration: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
